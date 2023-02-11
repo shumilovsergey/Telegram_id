@@ -3,7 +3,7 @@ from telebot import types
 
 
 token = input("Please enter a token:\n")
-print(token)
+
 bot = telebot.TeleBot(token)
 
 
